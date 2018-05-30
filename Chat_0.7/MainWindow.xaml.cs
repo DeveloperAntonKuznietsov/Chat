@@ -52,14 +52,15 @@ namespace Chat_0._7
             if (returnValue == 1)
             {
 
-                MessageBox.Show("You are already logged in. Try again");
+                MessageBox.Show("You are already logged in with "+lblWelcome.Content.ToString().ToUpper()+" Try again");
                
             }
             else if(returnValue == 0)
             {
-                MessageBox.Show("You logged in");
+                MessageBox.Show("Hallo "+ txtUserName.Text);
                 txtUserName.IsEnabled = false;
                 bntLogin.IsEnabled = false;
+                lblWelcome.Content ="You: " + txtUserName.Text;
             }
         }
     }

@@ -8,11 +8,8 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBox Name="txtUserName" HorizontalAlignment="Left" Height="23" Margin="53,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"/>
-        <Label Name="lblWelcome" Content="Welcome
-" HorizontalAlignment="Left" Margin="456,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.8,-0.444"/>
-        <TextBox Name="txtChat" HorizontalAlignment="Left" Height="259" Margin="53,92,0,0" VerticalAlignment="Top" Width="637">
-            
-        </TextBox>
+        <Label Name="lblWelcome" Content="Welcome" HorizontalAlignment="Left" Margin="456,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.8,-0.444"/>
+        <TextBox Name="txtChat" HorizontalAlignment="Left" Height="259" Margin="53,92,0,0" VerticalAlignment="Top" Width="637"/>
         <Button Name="bntLogin" Content="Login" HorizontalAlignment="Left" Margin="208,49,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.187,0.2" Click="bntLogin_Click"/>
         <TextBox Name="txtsend" HorizontalAlignment="Left" Height="23" Margin="53,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
         <Button Name="btnSend" Content="Send" HorizontalAlignment="Left" Margin="456,381,0,0" VerticalAlignment="Top" Width="75" IsDefault="True" Click="btnSend_Click"/>

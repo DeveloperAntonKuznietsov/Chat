@@ -1,0 +1,21 @@
+﻿<Window x:Class="Chat_0._7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chat_0._7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox Name="txtUserName" HorizontalAlignment="Left" Height="23" Margin="53,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"/>
+        <Label Name="lblWelcome" Content="Welcome
+" HorizontalAlignment="Left" Margin="456,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.8,-0.444"/>
+        <TextBox Name="txtChat" HorizontalAlignment="Left" Height="259" Margin="53,92,0,0" VerticalAlignment="Top" Width="637">
+            
+        </TextBox>
+        <Button Name="bntLogin" Content="Login" HorizontalAlignment="Left" Margin="208,49,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.187,0.2" Click="bntLogin_Click"/>
+        <TextBox Name="txtsend" HorizontalAlignment="Left" Height="23" Margin="53,381,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="349"/>
+        <Button Name="btnSend" Content="Send" HorizontalAlignment="Left" Margin="456,381,0,0" VerticalAlignment="Top" Width="75" IsDefault="True" Click="btnSend_Click"/>
+
+    </Grid>
+</Window>

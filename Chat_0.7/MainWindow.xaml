@@ -41,8 +41,4 @@
 
     </Grid>
 
-    <!-- <Label Name="lblWelcome" Content="Welcome" HorizontalAlignment="Left" Margin="456,46,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.8,-0.444"/>-->
-    
-        
-    
 </Window>

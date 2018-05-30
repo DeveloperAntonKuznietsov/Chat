@@ -49,6 +49,7 @@ namespace Server
                     client.Value.connection.GetMessage(message, userName);
                 }
             }
+            Console.WriteLine(userName + " : " + message);
         }
     }
 }
